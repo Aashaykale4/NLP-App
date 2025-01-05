@@ -3,7 +3,7 @@ import json
 
 class API:
   def __init__(self):
-      self.key="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"
+      self.key=""
  
   def get_sentiment(self,text):
         url = "https://api-inference.huggingface.co/models/distilbert-base-uncased-finetuned-sst-2-english"
